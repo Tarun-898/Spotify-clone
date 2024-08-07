@@ -1,0 +1,413 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding:0;
+    /* overflow: hidden; */
+}
+.main{
+    color: white;
+    display: flex;
+    height: 100vh;
+    background-color:#000;
+    overflow: hidden;
+}
+.sidebar{
+    
+    width: 16rem;
+    border-radius: 1.2rem;
+    margin-right: 0.5rem;
+    
+}
+.mpart{
+    
+    flex: 1;
+    border-radius: 1.2rem;
+    overflow: auto;
+    background-color: #121212;
+    padding:0 1.5rem 0 1.5rem ;
+}
+.niche{
+    
+    bottom:0;
+    position: fixed;
+    width: 100%;
+    background-color:#121212;
+    height: 59px;
+}
+.upar{
+    background-color: #121212;
+    border-radius: 1.2rem;
+    padding: 0.5rem ,0.75rem;
+    line-height: 2.4rem;
+    justify-content: center;
+    height: 100px;
+    margin:8px 3px 3px 3px;
+    
+}
+.upar a{
+    text-decoration: none;
+    color: white;
+    width: 14rem;
+    margin: 15px;
+    
+    
+}
+.upar i{
+    margin-left: 25px;
+    margin-top: 17px;
+    font-size: 1.3rem;
+}
+.search{
+    opacity: 0.5;
+}
+.search:hover{
+    opacity: 1;
+    font-weight: 700;
+}
+.library{
+    height: 100vh;
+    background-color: #121212;
+    border-radius: 1.2rem;
+    width: 16rem;
+    margin-top: 8px;
+    overflow:auto;
+   
+    
+}
+.liu img{
+    height: 1.3rem;
+    width: 1.3rems;
+    margin-left: 25px;
+}
+.liu{
+    padding: 0.5rem ,0.75rem;
+    line-height: 2.4rem;
+    justify-content: center;
+    height: 2.5rem;
+    margin:8px 3px 3px 3px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    
+    
+}
+
+.liu a{
+    text-decoration: none;
+    color: white;
+    margin: 17px;
+    
+    
+}
+.liu i{
+    margin-left: 2rem;
+}
+.liu:hover{
+    opacity: 1;
+    font-weight: 700;
+}
+.ar{
+    margin-top: 8px;
+    padding: 3px;
+   
+
+}
+
+
+.artist{
+    margin-top: 8px;
+    margin-left: 3px;
+    background-color:rgb(39, 35, 35);
+    height: 1.8rem;
+    width: 4.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    margin-left: 23px;
+}
+.artist a{
+    text-decoration: none;
+    color: white;
+    margin: 9px;
+    
+}
+.losearch{
+    height:2.4rem;
+    width:16rem;
+    padding: 10px ,0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.5;
+}
+.losearch:hover{
+    opacity: 1;
+    font-weight: 700;
+}
+
+.si i{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.recent a{
+    color: white;
+    text-decoration: none;
+    padding:12px;
+}
+.recent{
+    margin-right: 1rem;
+}
+.recent i{
+    padding-top:5px ;
+    align-self: center;
+}
+
+.cont{
+    overflow: visible;
+}
+.s{
+   height: 60px;
+   width: 15.4rem;
+   border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 10px 10px;
+    
+}
+.s img{
+    border-radius: 50%;
+   object-fit: cover;
+   height: 40px;
+   width: 40px;
+    background-color: rgb(224, 137, 7);
+}
+.s a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    top: 5px;
+}
+.op{
+    position: relative;
+    font-size: small;
+    opacity: 0.5;
+}
+
+.ltc {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  .rt button{
+    color: black;
+  }
+  .lt{
+    margin-left: 1rem;
+   
+    padding-top: 0.5rem;
+    border-radius: 100%;
+    background-color:black;
+    justify-content: center;
+  }
+  .al{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  .cardco{
+    display: flex;
+  }
+  .c1{
+    width:140px;
+    font-size: small;
+    background-color: #232323;
+    border-radius: 0.3rem;
+    padding: 1rem;
+  }
+  .c1 img{
+    width: 100%;
+
+  }
+  .cardinfo{
+    font-weight: 80;
+    
+  }
+  .trn{
+    margin-top: 20px;
+  }
+  .loca{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .c{
+   padding: 1px;
+    margin: 0.5rem;
+    background-color: #232323;
+  }
+  .c img{
+    height: 180px;
+    width: 100%;
+    padding:0.3rem ;
+   
+  }
+  .c p{
+    text-align: center;
+  }
+  .nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    z-index: 1;
+  }
+  .nav img{
+    opacity: 0.7;
+  }
+  .nav img:hover{
+    opacity: 1;
+    font-size: medium;
+  }
+  .nav button{
+    opacity: 0.7;
+  }
+  .nav button:hover{
+    opacity: 1;
+  }
+  .pin p{
+    opacity: 0.5;
+    font-size: small;
+  }
+  .pin p:hover{
+    opacity: 1;
+    font-weight: 500;
+  }
+  .footer{
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .line{
+    height: 30%;
+    width: 70%;
+    border-top: 1px solid white;
+    opacity: 0.7;
+  }
+.nil img{
+    padding:5px;
+
+}
+.nil{
+    display:flex;
+    margin-bottom: 0.2px;
+}
+.nq{
+    margin-top: 10px;
+}
+.nq h6,.nq p{
+    margin: 0;
+}
+.nq p{
+    font-size: small;
+    opacity: 0.8;
+}
+.nq h4{
+    font-weight: 500;
+}
+.he{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 1.5px;
+    margin-left: 1rem;
+}
+.niche{
+    display: flex;
+    
+}
+.nil{
+    width:25%;
+}
+.nib{
+    width: 50%;
+    line-height: 35px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nir{
+    width:25%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* background-color: red; */
+}
+.niric{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+    
+}
+.nir i{
+    margin-top: 0px; padding: 10px;
+    margin-left: 100px;
+}
+.nirn::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.3rem;
+}
+.nirn::-webkit-slider-thumb{
+    appearance: none;
+    height:1rem;
+    width: 1rem;
+    border-radius: 100%;
+    background-color: #12803a;
+   cursor: pointer;
+   margin-top: -6px; 
+}
+.nib img{
+    height: 0.9rem;
+    margin-left: 1.5rem;
+    opacity: 0.5;
+   
+}
+.nib img:hover{
+    opacity: 1;
+    font-weight: 300;
+}
+.nibs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rng{
+    width: 75%;
+    appearance: none;
+    background-color:transparent;
+    cursor: pointer;
+}
+.nibu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rng::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+  
+}
+.rng::-webkit-slider-thumb{
+    appearance: none;
+    height:1rem;
+    width: 1rem;
+    border-radius: 100%;
+    background-color: #1bd760;
+   cursor: pointer;
+   margin-top: -6px; 
+}
